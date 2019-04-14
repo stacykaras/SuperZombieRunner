@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 4657192921030231770}
   - component: {fileID: 4657192921030231769}
   - component: {fileID: 8714173863617619786}
+  - component: {fileID: 1382223477107354035}
+  - component: {fileID: 2995909016219376174}
   m_Layer: 0
   m_Name: Obstacles
   m_TagString: Untagged
@@ -156,3 +158,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: 32
+--- !u!114 &1382223477107354035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4657192921030231768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb09047777dd7f489299f1cf62b36fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2995909016219376174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4657192921030231768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7b70c5df1b05f4db515a183b67fb4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 2e0baaf2cdb469a4daf7f60c7044a94b, type: 3}
+  - {fileID: 21300000, guid: c244f14381514f64dada5e5daae21f27, type: 3}
+  - {fileID: 21300000, guid: a9edc9c822cf8194598076b051713c6d, type: 3}
+  - {fileID: 21300000, guid: 3cc3ab2fc0fe5f24f987937d3b44f4be, type: 3}
+  - {fileID: 21300000, guid: 004ff937413be4340aa847a9ec895100, type: 3}
+  - {fileID: 21300000, guid: bc5d38c0b6ba4a44086e4371bffc4a98, type: 3}
